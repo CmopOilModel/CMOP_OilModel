@@ -1,5 +1,3 @@
-What is this
- ------------
    
    This repository contains performance tests for two kind of tools 
    frequently employed in particle tracking algorithms: 
