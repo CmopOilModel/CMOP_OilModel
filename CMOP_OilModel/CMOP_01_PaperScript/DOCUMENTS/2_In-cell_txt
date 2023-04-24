@@ -1,0 +1,23 @@
+
+    --------------------------------------------------------------------
+    2_In-cell_txt       
+    -------------
+   
+    Overview
+    --------
+      Tests to check if a parcel lies in a cell.
+      The performance of 3 methods are evaluated 
+    
+      - BariCoo method - the barycentric coordinates
+      - AreaCom method - the areas comparison
+      - LoopCon method - the looping counterclockwise
+    
+      The polygones utilized are triangular, quadrilateral, and pentagone 
+      
+      
+    How to run
+    ----------
+      Go to the folder IN-CELL and follow the instruction in 
+      howtorun_txt
+      
+

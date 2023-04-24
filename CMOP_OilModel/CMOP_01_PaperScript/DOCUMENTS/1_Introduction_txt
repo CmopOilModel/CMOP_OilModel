@@ -1,0 +1,36 @@
+
+    --------------------------------------------------------------------
+    1_Introduction_txt       
+    ------------------
+    
+      > How to install :
+        --------------
+        To run the experiments and tests described here are necessary 
+        the GNU fortran compiler and the KornShell shell, both open
+        source. The tests were performed in lap-top running with the
+        open source software operating system  Ubuntu.
+       
+      > The basic steps of the scripts :
+        ------------------------------
+        The scripts written uses the kshell comands. In general they
+        are formed by three parts:
+        - part 1: the user defines the values ​​and files used according 
+          to the desired experiment.
+        - part 2: the script compile fortran codes and carried out the 
+          experiment. 
+          
+        > How to navigate in this repository :        
+          ----------------------------------   
+          In the DOCUMENTS folder are the documents for each of the 
+          experiments. The user opens the desired document and follows 
+          the instructions. In the directories are the scripts related 
+          to the experiment:
+                
+          - IN-CELL_TESTS 
+          - GRIDS
+          - OUTEDGE
+          - INTEDGE
+          - NOSPLIT
+           
+
+

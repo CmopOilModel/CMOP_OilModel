@@ -1,0 +1,61 @@
+####
+    
+/   --------------------------------------------------------------------
+    howtorun_txt
+    ------------
+    
+/   content
+    -------
+    
+      howtorun_txt 
+      work_with_inside.scpt
+      
+      d-f90 --| module_in_or_out.f90 
+              | work_with_inside.f90
+
+     
+/   how to run
+    ---------- 
+    
+    1. confirm you is inside the folder IN-CELL
+       type pwd
+    
+    2. type  
+       ./work_with_inside.scpt
+       
+       > answer the first question - choose the method        
+           1 = BariCoo method - the barycentric coordinates  
+           2 = AreaCom method - the areas comparison        
+           3 = LoopCon method - the looping counterclockwise
+         
+       > answer the second question - choose the polygone  
+           3 = triangle (3 edges)     
+           4 = quadrilatere (4 edges) 
+           5 = pentagone (5 edges)        
+     
+    3. check results 
+       > type 
+         more log_time
+                 
+ /   important notes
+     ---------------
+    
+       In the code 'work_with_inside.f90' five points are defined and the 
+       position to be checked are defined
+          
+         X_1  =  0.  ;    Y_1  = 0.
+         X_2  =  1.  ;    Y_2  = 0.
+         X_3  =  1.  ;    Y_3  = 1.  
+         X_4  =  0.  ;    Y_4  = 1.   
+         X_5  = -0.5 ;    Y_5  = 0.5      
+      
+         X_POS = 0.5 ;   Y_POS = 0.4
+      
+       and the number of times the test is performed
+           
+         N_VEZES = 1000000000
+    
+/   --------------------------------------------------------------------
+
+
+

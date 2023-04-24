@@ -1,0 +1,4 @@
+2021021000          0 1 "ENV_CURRENT_0.DAT" : yyyymmddhh seg rec_number
+2021021000       1800 1 "ENV_CURRENT_1.DAT" : yyyymmddhh seg rec_number
+2021021000       3600 1 "ENV_CURRENT_2.DAT" : yyyymmddhh seg rec_number
+2021021000       5400 1 "ENV_CURRENT_3.DAT" : yyyymmddhh seg rec_number

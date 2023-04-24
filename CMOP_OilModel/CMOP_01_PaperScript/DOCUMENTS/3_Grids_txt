@@ -1,0 +1,23 @@
+
+    --------------------------------------------------------------------
+    3_Grids_txt       
+    ------------- 
+     
+    Overview
+    --------    
+      In this folder, the files needed to run the experiments on an 
+      unstructured grid are generated. The grid defined here has 
+      constant spacing between nodes, that is, it is a regular grid, but 
+      the files are generated for an unstructured grid, and the 
+      experiments are performed as if the grid were unstructured.
+      
+      The grid has 4000X100 nodes, and the forcing current is high on 
+      the left side of the grid, and very low in the right side. 
+            
+      
+    How to run
+    ----------
+      Go to the folder GRIDS and follow the instruction in 
+      howtorun_txt
+      
+
