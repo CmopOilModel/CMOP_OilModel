@@ -1,3 +1,0 @@
-      1.5 = TIME_STOP      ! --- time to stop in HOURS 
-      64. = DT             ! --- time step in SECONDS
-      0.01 = TIME_PRINT_INC ! --- time between 2 output in HOURS      ! --- hours
