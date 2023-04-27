@@ -1,0 +1,21 @@
+
+    --------------------------------------------------------------------
+    4_OutEdge_txt       
+    ------------- 
+           
+    Overview
+    --------      
+      OutEdge is an algorithm to trace the trajectory using time step 
+      divided by 2 consecutively until the new position is in a 
+      neighboring cell.
+      
+      If the new position is not in a neighboring cell, the time range 
+      is divided by 2. The division by 2 continues until the original 
+      time step is completed.
+          
+    How to run
+    ----------
+      Go to the folder OUTEDGE and follow the instructions in 
+      howtorun_txt
+      
+      

@@ -1,0 +1,18 @@
+
+    --------------------------------------------------------------------
+    5_NoSplit_txt       
+    ------------- 
+     
+    Overview
+    --------      
+      In NoSplit algorithm, the time step split employed in the IntEdge 
+      algorithm is turned off, that is, the sequence of cells traced 
+      from the initial position to the final one is obtained directly, 
+      without recalculating the velocity. The sequence of cells runs in 
+      a straight line between the two positions.
+            
+          
+    How to run
+    ----------
+      Go to the folder NOSPLIT and follow the instructions in 
+      howtorun_txt

@@ -1,0 +1,60 @@
+####
+    
+/   --------------------------------------------------------------------
+    howtorun_txt
+    ------------
+    
+/   content
+    -------
+    
+      howtorun_txt 
+
+      d-f90 --| faz_arquivos_iniciais.f90
+
+     
+/   how to run
+    ---------- 
+     
+    1. confirm you is inside the folder GRIDS
+    
+    2. copy 'faz_arquivos_iniciais.f90' 
+       cp d-f90/faz_arquivos_iniciais.f90 .
+      
+    3. compile and run 
+       type
+       gfortran -o faz_arquivos_iniciais.exe  faz_arquivos_iniciais.f90 
+       
+       type     
+       faz_arquivos_iniciais.exe
+       
+    4. check if the files were generated    
+       The files are generated in binary format, therefore they can not
+       be seen by the user. The files and respective size are 
+       
+       -----------------------------------------------------------------
+           size  name file               description
+       --------  ----------------------  -------------------------------
+        6400000  GRD_NODES_LOCATION.DAT  x,y,depth,mask
+        4800000  GRD_CELL_NODES.DAT      nodes in the cell
+       19200000  GRD_VEC_AROUND.DAT      coeffic of segments 
+       14400000  GRD_GRID_AROUND.DAT     grids around the current cell
+           1552  LOCATION.DAT_RELEASE    localization of grid release
+        3200000  ENV_CURRENT.DAT         current velocities in the nodes
+       -----------------------------------------------------------------
+    
+                   
+ /   important notes
+     ---------------
+     
+     > The environment current can be changed: lines 92-99
+       In the case, the speed does not varies in the y direction, and 
+       in the x direction, is 4 at the left hand side, and decrases
+       -0.0011 in each grid until achieve 0. 
+       
+     > Spacing and number of nodes can be changed: lines 23-24. 
+     
+      
+/   --------------------------------------------------------------------
+
+
+

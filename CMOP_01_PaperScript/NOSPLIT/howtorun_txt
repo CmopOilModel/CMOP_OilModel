@@ -1,0 +1,82 @@
+####
+    
+/   --------------------------------------------------------------------
+    howtorun_txt
+    ------------
+    
+/   content
+    -------
+    
+      howtorun_txt 
+      run_nosplit.scpt
+      
+      d-f90 --| run_nosplit.f90
+              | module_work_with_nosplit.f90 
+
+      d-output_check : a previous experiment to check the results
+      
+     
+/   how to run
+    ---------- 
+     
+    1. confirm you are inside the folder NOSPLIT
+    
+    2. confirm there exist the files 
+    
+         ../GRID/GRD_CELL_NODES.DAT  
+         ../GRID/GRD_NODES_LOCATION.DAT 
+         ../GRID/GRD_GRID_AROUND.DAT   
+         ../GRID/GRD_VEC_AROUND.DAT  
+         
+       If not, type
+         cd ../GRIDS 
+       and follow the txt there. 
+    
+       
+    3. edit
+       run_nosplit.scpt
+       
+       and type the values for 
+       
+         TIME_STOP      : time in HOURS for the integation.
+         DT             : time step in SECONDS
+         TIME_PRINT_INC : time between 2 output in HOURS         
+           
+       The previous tested case use values in the file 
+         d-output_check/noslip_input      
+         
+    4. type 
+       run_nosplit.scpt
+       
+       in the end of the simulation, the Time used by the computer is 
+       displaying, eg
+       
+         Time =        1.59344 seconds.
+ 
+    5. check the files generated/storage
+       ls d-output 
+         
+         nosplit_inputintedge_input  : times choosed by the user
+         reporter_txt   : each line corresponds to an output according to 
+           the value TIME_PRINT_INC
+         TEV_LOCATION.DAT : binary file with the time evolution of all 
+           locations particles 
+                        
+         history_parcel_01_txt : location of particle number 1 every 
+           time step 
+  
+                   
+ /   important notes
+     ---------------
+     
+     > in the code 'run_nosplit.f90' 
+     
+       - line 70--- the command
+       
+           CALL SYSTEM ( " cat  LOCATION.DAT_RELEASE.... 
+         
+         releases a group of 97 particles. Nine CALL releases 9x97
+         
+     > 
+
+ 
