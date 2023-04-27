@@ -9,7 +9,7 @@ the surface, in intermediate and deep waters.
 
 The next repositories are contained here:
 
-1. ## CMOP_01_PaperScript : 
+*  ## CMOP_01_PaperScript : 
     
    This repository contains the scripts and codes developed to perform 
    numerical experiments whose results are explored in the manuscript: 
