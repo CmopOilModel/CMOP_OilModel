@@ -21,8 +21,8 @@
                
    A detailed description of these algorithms is provided in the manuscript 
 
-   "An effcient particle tracking algorithm by partitioning the time 
-   interval" 
+   **An effcient particle tracking algorithm by partitioning the time 
+   interval** 
    by Luciana de Freitas Tessarolo, Valdir Innocentini, 
    Ernesto Caetano, Julio Tomás Aquije Chacaltana, Audálio Rebelo Torres 
    Júnior, Tânia Ocimoto Oda, Júlio César Martins Ribeiro Júnior, 
