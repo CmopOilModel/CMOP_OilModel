@@ -14,8 +14,8 @@ The repositories contained here are:
     It contains the scripts and codes developed to perform 
     numerical experiments whose results are explored in the manuscript: 
     
-    * An effcient particle tracking algorithm by partitioning the time 
-     interval *
+    **An effcient particle tracking algorithm by partitioning the time 
+     interval**
      
     by Luciana de Freitas Tessarolo, Valdir Innocentini, Ernesto Caetano, 
     Julio Tomás Aquije Chacaltana, Audálio Rebelo Torres Júnior, Tânia 
