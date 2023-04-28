@@ -8,7 +8,7 @@
    The tools are
    
    - **in-cell test**   : three options to check if a position is in a 
-     cell are analysed. 
+     cell are analysed,
    - **next-cell test** : to find the next cell in a sequence until reaching 
     the target cell, where the particle is contained.
      
@@ -19,8 +19,7 @@
    - **IntEdge** : the particle is intercepted in the edge of the current 
               cell
                
-   A detailed description of these algorithms is provided in the manus
-   cript 
+   A detailed description of these algorithms is provided in the manuscript 
 
    "An effcient particle tracking algorithm by partitioning the time 
    interval" 
@@ -29,10 +28,10 @@
    Júnior, Tânia Ocimoto Oda, Júlio César Martins Ribeiro Júnior, 
    Fernando Túlio Camilo
 
-            
+               
 ## Content of this repository 
    
-   Here are the following 6 folders 
+   This repository is organized in the following 6 folders:
    
    **DOCUMENTS**
    
